@@ -1,4 +1,7 @@
 {
+  "general": {
+    "beta": "Beta"
+  },
   "breadcrum_component": {
     "lexoffice_settings": "LexOffice"
   },

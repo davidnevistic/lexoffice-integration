@@ -1,0 +1,17 @@
+{
+  "general": {
+    "beta": "bèta"
+  },
+  "breadcrum_component": {
+    "lexoffice_settings": "LexOffice"
+  },
+  "app_appointment_services_detail_component": {
+    "lexoffice_setting": {
+      "title": "LexOffice",
+      "description": "Sluit LexOffice aan om uw klanten de mogelijkheid te geven via Factuur te betalen",
+      "enable_lexoffice": "LexOffice inschakelen",
+      "api_key": "LexOffice API-Key",
+      "terms_condition": "Ik accepteer dat Calenso een vergoeding van 50 Rappen / cent in rekening brengt voor elke succesvolle online betaling. De kosten voor online betalingen worden aan het eind van elk kwartaal gefactureerd."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "general": {
+    "beta": "Beta"
+  },
+  "breadcrum_component": {
+    "lexoffice_settings": "LexOffice"
+  },
+  "app_appointment_services_form_component": {
+    "lexoffice_setting": {
+      "title": "LexOffice",
+      "description": "Yhdistä LexOffice antaaksesi asiakkaillesi mahdollisuuden maksaa laskulla.",
+      "enable_lexoffice": "Ota LexOffice käyttöön",
+      "api_key": "LexOffice API-Key",
+      "terms_condition": "Hyväksyn, että Calenso perii 50 rappenin / sentin maksun jokaisesta onnistuneesta verkkomaksusta. Verkkomaksuista perittävät maksut laskutetaan kunkin vuosineljänneksen lopussa."
+    }
+  }
+}

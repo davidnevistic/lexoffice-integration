@@ -1,0 +1,17 @@
+{
+  "general": {
+    "beta": "Bêta"
+  },
+  "breadcrum_component": {
+    "lexoffice_settings": "LexOffice"
+  },
+  "app_appointment_services_form_component": {
+    "lexoffice_setting": {
+      "title": "LexOffice",
+      "description": "Connectez LexOffice pour donner à vos clients la possibilité de payer par facture.",
+      "enable_lexoffice": "Activer LexOffice",
+      "api_key": "LexOffice API-Key",
+      "terms_condition": "J'accepte que Calenso facture des frais de 50 Rappen / cents pour chaque paiement en ligne réussi. Les frais pour les paiements en ligne seront facturés à la fin de chaque trimestre."
+    }
+  }
+}

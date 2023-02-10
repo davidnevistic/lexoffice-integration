@@ -1,0 +1,17 @@
+{
+  "general": {
+    "beta": "Beta"
+  },
+  "breadcrum_component": {
+    "lexoffice_settings": "LexOffice"
+  },
+  "app_appointment_services_form_component": {
+    "lexoffice_setting": {
+      "title": "LexOffice",
+      "description": "Collegate LexOffice per dare ai vostri clienti la possibilità di pagare tramite fattura.",
+      "enable_lexoffice": "Attivare LexOffice",
+      "api_key": "LexOffice API-Key",
+      "terms_condition": "Accetto che Calenso addebiti una commissione di 50 Rappen / cent per ogni pagamento online andato a buon fine. La tassa per i pagamenti online sarà addebitata alla fine di ogni trimestre."
+    }
+  }
+}

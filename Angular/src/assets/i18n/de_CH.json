@@ -1,0 +1,17 @@
+{
+  "general": {
+    "beta": "Beta"
+  },
+  "breadcrum_component": {
+    "lexoffice_settings": "LexOffice"
+  },
+  "app_appointment_services_form_component": {
+    "lexoffice_setting": {
+      "title": "LexOffice",
+      "description": "Verbinden Sie LexOffice, um Ihren Kunden die Möglichkeit zu geben, per Rechnung zu bezahlen",
+      "enable_lexoffice": "LexOffice aktivieren",
+      "api_key": "LexOffice API-Key",
+      "terms_condition": "Ich akzeptiere, dass Calenso für jede erfolgreiche Online-Zahlung eine Gebühr von 50 Rappen erhebt. Die Gebühren für Online-Zahlungen werden jeweils am Ende eines Quartals in Rechnung gestellt."
+    }
+  }
+}
