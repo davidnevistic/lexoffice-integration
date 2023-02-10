@@ -1,0 +1,14 @@
+{
+  "breadcrum_component": {
+    "lexoffice_settings": "LexOffice"
+  },
+  "app_appointment_services_form_component": {
+    "lexoffice_setting": {
+      "title": "LexOffice",
+      "description": "Connect LexOffice to give your customers the possibility to pay via Invoice",
+      "enable_lexoffice": "Enable LexOffice",
+      "api_key": "LexOffice API-Key",
+      "terms_condition": "I accept that Calenso charges a fee of 50 Rappen / cents for each successful online payment. The fees for online payments will be invoiced at the end of each quarter."
+    }
+  }
+}

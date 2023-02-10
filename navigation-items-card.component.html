@@ -1,0 +1,27 @@
+<!-- Integration settings -->
+<div class="card shadow bg-white">
+  <div class="" [ngbCollapse]="!isOnlinePaymentSettingCollapsed">
+    <a
+      *ngIf="isStripeEnabled || isBexioEnabled || isPayPalEnabled || isSaferpayEnabled || isLexOfficeEnabled"
+      class="href-link" routerLinkActive="active" (click)="onClickUrl()"
+      [routerLink]="[ '/app', 'settings', 'online-payment' ]">
+      <div class="title-box py-3 px-4">
+        <div class="sub-title">
+          {{ "settings_component.general_settings" | translate }}
+        </div>
+      </div>
+    </a>
+
+    <a class="href-link" routerLinkActive="active" (click)="onClickUrl()"
+       [routerLink]="[ '/app', 'settings', 'lexoffice' ]">
+      <div class="title-box py-3 px-4">
+        <div class="sub-title">
+          LexOffice
+          &nbsp;<span class="badge bg-success">
+            {{ "general.beta" | translate }}
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>

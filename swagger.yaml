@@ -1,0 +1,93 @@
+    "/partners/verify_online_payment_status":
+        get:
+            tags:
+                - partners
+            summary: Returns every status from online payment methods
+            responses:
+                "200":
+                    description: OK
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/OnlinePaymentStatus"
+                "401":
+                    $ref: "#/components/responses/KeyNotValid"
+                "403":
+                    $ref: "#/components/responses/Unauthorized"
+                "404":
+                    $ref: "#/components/responses/NotFound"
+                "500":
+                    $ref: "#/components/responses/InternalServerError"
+                    
+        OnlinePaymentStatus:
+            type: object
+            properties:
+                bexioEnabled:
+                    type: boolean
+                    description: Flag that tells if bexio is enabled
+                    example: true
+                    enum: [true, false]
+                isBexioAppointmentServicePaymentEnabled:
+                    type: integer
+                    format: int32
+                    description: Flag that tells if bexio appointment service payment is enabled
+                    enum: [0, 1]
+                    example: 1
+                isBexioEventPaymentEnabled:
+                    type: integer
+                    format: int32
+                    description: Flag that tells if bexio event payment is enabled
+                    enum: [0, 1]
+                    example: 1
+                isEventOnlinePaymentEnabled:
+                    type: integer
+                    format: int32
+                    description: Flag that tells if event online payment is enabled
+                    enum: [0, 1]
+                    example: 1
+                isOnlinePaymentMandatory:
+                    type: integer
+                    format: int32
+                    description: Flag that tells if online payment is mandatory
+                    enum: [0, 1]
+                    example: 1
+                isServiceOnlinePaymentEnabled:
+                    type: integer
+                    format: int32
+                    description: Flag that tells if service online payment is enabled
+                    enum: [0, 1]
+                    example: 1
+                lexOfficeEnabled:
+                    type: boolean
+                    description: Flag that tells if lexOffice is enabled
+                    example: true
+                    enum: [true, false]
+                onlinePaymentShowOnSitePaymentType:
+                    type: integer
+                    format: int32
+                    description: tbd patrick
+                    enum: [0, 1]
+                    example: 1
+                paypalAccessToken:
+                    type: string
+                    description: Access token from paypal
+                    example: "A21AAIpGbOIk_am*************************************"
+                paypalClientId:
+                    type: string
+                    description: ID of the paypal client
+                    example: "XKHdxPwg2WSmVlC*********************************"
+                paypalEnabled:
+                    type: boolean
+                    description: Flag that tells if paypal is enabled
+                    example: true
+                    enum: [true, false]
+                saferpayEnabled:
+                    type: boolean
+                    description: Flag that tells if saferpay is enabled
+                    example: true
+                    enum: [true, false]
+                stripeEnabled:
+                    type: boolean
+                    description: Flag that tells if stripe is enabled
+                    example: true
+                    enum: [true, false]
